@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+
+body {
+    background-image: url('/images/spicess.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* font-family: Arial, sans-serif;  */
+}
+.glass{
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    
+}
+h3 {
+    color:orangered;
+}
+
+.navbar {
+    padding: 10px; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: orangered;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;
+    margin:20px 20px; 
+    background-color: rgba(255, 255, 255, 0.2); 
+    
+}
+h2{
+    
+    font-size: 35px;
+}
+
+.homeicon {
+    padding: 20px;
+}
+.top{
+    margin-bottom: 40px;
+    color: black;
+}
+
+.icons {
+    display: flex;
+    list-style: none;
+    color: orangered;
+    margin: 60px;
+
+}
+.icons li p{
+    color: black;
+    font-weight: 900;
+}
+
+.fas {
+    margin: 0 20px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    padding: 30px;
+    font-size: 40px;
+}
+.cta {
+    margin-top: 20px;
+    display:flex;
+}
+
+.view, .order-online {
+  
+    background-color:#FF4500;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 20px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.view:hover, .order-online:hover {
+    background-color: black;
+}
+
+.discount {
+    display: flex; 
+    justify-content: space-between;
+    margin:20px; 
+    padding: 20px; 
+}
+
+.discount img {
+    max-width: 100%; 
+    height: auto; 
+}
+.dis img{
+    max-width: 20%;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px ;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.1) ;
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category h2 {
+    color:white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    margin-bottom: 8px;
+    color: white;
+    margin: 30px;
+}
+
+.menu-item:hover {
+    background-color: orangered;
+}
+.story-img {
+    max-width: 40%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+   margin: 60px;
+}
+.about{
+    margin-left: 40px;
+}
+h1{
+    color: orangered;
+}
+p{
+    color: white;
+    margin: 20px;
+    font-size: 18px;
+}
+.gallery {
+    margin: 40px;
+    background-color:rgba(0, 0, 0, 0.1) ;
+    backdrop-filter: blur(10px); 
+}
+
+.gallery h2 {
+    text-align: center;
+}
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+}
+
+
+.gallery-images img {
+    height: 200px; 
+    object-fit: cover;
+    margin: 10px;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    border:2px solid yellowgreen;
+}
+form{
+    background-color:rgba(0, 0, 0, 0.1) ;
+    backdrop-filter: blur(10px); 
+    margin: 90px;
+    border:2px solid yellow;
+    width: 50%;
+}
+.contact{
+    margin:30px;
+}
+.footer {
+    background-color:rgba(0, 0, 0, 0.1) ;
+    backdrop-filter: blur(10px); 
+    margin:0 10px;
+}
+
+.footer-content {
+    display: flex;
+   justify-content: space-between;
+}
+hr{
+    border-color: orangered;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline;
+    margin-right: 10px;
+}
+.footer h1{
+    color: black;
+}
+
+.footer-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+
