@@ -4,10 +4,11 @@
 }
 
 body#home {
-    background-image: url('/images/spicess.jpg') ; 
+    background-image: url('/images/spices-herbs-wooden-spoon-collection-generated-by-ai.jpg') ; 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    object-fit: cover;
     /* font-family: Arial, sans-serif;  */
 }
 .glass{
