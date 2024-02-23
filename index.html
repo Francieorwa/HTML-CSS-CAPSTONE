@@ -10,21 +10,20 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <div class="glass">
-      <div class="navbar">
-        <nav>
-          <!-- <img src="" alt="logo"> -->
-          <h1>PizzaHub</h1>
-          <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+  <body id="home">
+    <div  class="glass">
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <h3>PizzaHub</h3>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
       <div class="section">
         <div class="homeicon">
           <h2>
@@ -59,152 +58,49 @@
           <img src="/images/pizza.png" alt="pizza image" />
         </div>
       </div>
-      <h2>Discover Discounts</h2>
+      <h1>Discover Discounts</h1>
       <div class="discount">
         <img src="/images/trial.jpg" alt="discount" />
         <img src="/images/trial.jpg" alt="discount" />
       </div>
-      <div class="menu">
+      <div id="menu">
         <div class="category">
           <h2>Pizzas</h2>
           <ul>
-            <li class="menu-item">Margherita - $9.99</li>
-            <li class="menu-item">Pepperoni - $10.99</li>
-            <li class="menu-item">Hawaiian - $11.99</li>
-            <li class="menu-item">Veggie Delight - $10.99</li>
-            <li class="menu-item">Supreme - $12.99</li>
+            <li class="menu-item">Margherita -Ksh 1500</li>
+            <li class="menu-item">Pepperoni - Ksh 1500</li>
+            <li class="menu-item">Hawaiian - Ksh 1500</li>
+            <li class="menu-item">Veggie Delight - Ksh 1500</li>
+            <li class="menu-item">Supreme - Ksh 1500</li>
           </ul>
         </div>
         <div class="category">
           <h2>Drinks</h2>
           <ul>
-            <li class="menu-item">Soda - $1.99</li>
-            <li class="menu-item">Water - $0.99</li>
-            <li class="menu-item">Iced Tea - $2.49</li>
-            <li class="menu-item">Lemonade - $2.49</li>
+            <li class="menu-item">Soda - Ksh 200</li>
+            <li class="menu-item">Water - Ksh 200</li>
+            <li class="menu-item">Iced Tea - Ksh 200</li>
+            <li class="menu-item">Lemonade - Ksh 200</li>
+            <li class="menu-item">Minute Maid - Ksh 200</li>
           </ul>
         </div>
         <div class="category">
           <h2>Toppings</h2>
           <ul>
-            <li class="menu-item">Extra Cheese - $1.50</li>
-            <li class="menu-item">Pepperoni - $1.00</li>
-            <li class="menu-item">Mushrooms - $1.00</li>
-            <li class="menu-item">Olives - $0.75</li>
+            <li class="menu-item">Extra Cheese - Ksh 150</li>
+            <li class="menu-item">Pepperoni - Ksh 150</li>
+            <li class="menu-item">Mushrooms - Ksh 150</li>
+            <li class="menu-item">Olives - Ksh 150</li>
+            <li class="menu-item">Pineapples - Ksh 150</li>
           </ul>
         </div>
       </div>
-      <div class="container">
-        <img
-          src="/images/flat-lay-mini-pizza-wood-tray.jpg"
-          alt="PizzaHub Story"
-          class="story-img"
-        />
 
-        <div class="about">
-          <h1>PizzaHub</h1>
-          <p>
-            Welcome to PizzaHub, where every slice tells a saucy story! Our
-            journey began in a small kitchen, where our founder, Tony,
-            experimented with different dough recipes and sauce combinations to
-            create the perfect pizza.
-          </p>
-          <p>
-            Driven by his passion for quality ingredients and authentic flavors,
-            Tony dreamed of sharing his love for pizza with the world. Thus,
-            PizzaHub was born – a place where pizza lovers could gather to enjoy
-            handcrafted pies made with the freshest ingredients.
-          </p>
-          <p>
-            From humble beginnings to becoming a beloved neighborhood staple,
-            PizzaHub remains committed to Tony's vision of serving delicious
-            pizzas with a smile. Our team of dedicated pizza artisans takes
-            pride in every pie we create, ensuring that each bite is a moment of
-            pure culinary delight.
-          </p>
-          <p>
-            Thank you for being a part of our journey. Whether you're a loyal
-            fan or a first-time visitor, we invite you to join us at PizzaHub
-            and experience the magic of pizza done right!
-          </p>
-        </div>
-      </div>
-      <div class="gallery">
-        <h2>Our Gallery</h2>
-        <div class="gallery-images">
-          <img src="/images/pizza1.jpg" alt="Gallery Image 1" />
-          <img src="/images/pizza2.jpg" alt="Gallery Image 2" />
-          <img src="/images/pizza5.jpg" alt="Gallery Image 3" />
-          <img src="/images/pizza4.jpg" alt="Gallery Image 4" />
-          <img src="/images/pizza5.jpg" alt="Gallery Image 5" />
-          <img src="/images/pizza4.jpg" alt="Gallery Image 6" />
-          <img src="/images/pizza2.jpg" alt="Gallery Image 7" />
-          <img src="/images/pizza1.jpg" alt="Gallery Image 8" />
-        </div>
-      </div>
-      <div class="contact-us">
-        <img src="/images/pizza.png" alt="">
-        <form class="form" action="" method="post">
-          <fieldset>
-              <legend >Add User</legend>
-              <div class="contact">
-                  <div  >
-                      <label for="firstName">First Name: </label>
-                  <input  type="text" id="firstName" name="firstName">
-                  </div>
-                  
-                  <div>   <label for="lastName">Last Name: </label>
-                      <input type="lastName" id="lastName" name="lastName">
-                  </div>
-               
-                  <div>
-                      <label for="email">Email: </label>
-                      <input type="text" id="email" name="email">
-                  </div>
-              
-                  <div>
-                      <div>
-                          <label for="comments">Comments: </label><br/>
-                          <textarea id="comments" name="comments" rows="5" cols="30"></textarea> 
-                      </div>
-                
-                     
-                  </div>
-                  <div class="agree">
-                      <div class="checkbox-wrapper">
-                          <input type="checkbox" id="signup" name="signup" value="Signup">
-                          <label for="signup">Sign up for newsletter</label>
-                      </div>
-                  </div>
-                  
-      
-                  <div>
-                  <button type="submit">Submit</button>
-                  </div>
-              </div>
-              
-            
-          </fieldset>
-      </form>
-      </div>
       <footer class="footer">
         <div class="footer-content">
-          <h1>PizzaHub</h1>
-            <nav class="footer-nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-          
-        </div>
-        <hr>
+          <h2>PizzaHub</h2>
         <p>&copy; 2024 PizzaHub. All rights reserved.</p>
-    </footer>
-    
+      </footer>
     </div>
   </body>
 </html>

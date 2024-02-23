@@ -1,11 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-  
 }
 
-body {
-    background-image: url('/images/spicess.jpg'); 
+body#home {
+    background-image: url('/images/spicess.jpg') ; 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,22 +13,24 @@ body {
 .glass{
     background-color: rgba(255, 255, 255, 0.2); 
     backdrop-filter: blur(10px); 
-    
 }
 h3 {
+    color: white;
     color:orangered;
 }
 
 .navbar {
-    padding: 10px; 
+    padding: 30px; 
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
-    
+    position: sticky;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index:1000;
 }
 
 nav ul {
@@ -56,7 +57,8 @@ nav ul li a {
     
 }
 h2{
-    
+    margin-top: 10px;
+    color: white;
     font-size: 35px;
 }
 
@@ -123,7 +125,7 @@ h2{
 }
 
 
-.menu {
+#menu {
     display: flex;
     justify-content: space-evenly;
     margin: 40px ;
@@ -158,19 +160,24 @@ h2{
     background-color: orangered;
 }
 .story-img {
-    max-width: 40%;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    max-width: 45%;
+    object-fit: cover;
+    border-radius: 40px;
+    margin-bottom: 100px;
 }
 .container{
     display: flex;
-   margin: 60px;
+    margin: 10px;
 }
 .about{
     margin-left: 40px;
 }
 h1{
-    color: orangered;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 80px;
 }
 p{
     color: white;
@@ -183,70 +190,128 @@ p{
     backdrop-filter: blur(10px); 
 }
 
-.gallery h2 {
+#gallery {
     text-align: center;
+    color:white;
 }
+
 .gallery-images {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px; 
+    padding: 40px;
 }
-
 
 .gallery-images img {
-    height: 200px; 
+    width: 100%; 
+    height: auto; 
+    max-height: 300px;
     object-fit: cover;
-    margin: 10px;
 }
+figcaption{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+}
+.get{
+    display: flex;
+    justify-content: center;
+}
+
 .contact-us{
     display: flex;
-    justify-content: space-around;
-    margin: 40px;
-    border:2px solid yellowgreen;
+    justify-content: center;
 }
+
 form{
-    background-color:rgba(0, 0, 0, 0.1) ;
-    backdrop-filter: blur(10px); 
-    margin: 90px;
-    border:2px solid yellow;
-    width: 50%;
+    margin: 40px;
+    max-width: 700px;
+    width: 100%;
+    padding: 30px;
+    background-color:rgba(0, 0, 0, 0.15) ; 
+    box-shadow:0 8px 8px 0px rgb(31, 38,135,0.37);
+    backdrop-filter: blur(2px); 
+    border-radius: 10px;
+ 
 }
-.contact{
-    margin:30px;
-}
+fieldset {
+    padding: 20px; 
+    border: 1px solid black; 
+  }
+  
+legend {
+    color:white;
+    font-size: 30px; 
+    font-weight: bold;
+    text-align: center; 
+  }
+ form .contact{
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+
+
+  }
+  .card-box{
+    width: calc(100%/2 -20px);
+    margin-bottom: 10px;
+  }
+
+  label{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  input{
+    height: 35px;
+    width: 100%;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 1px solid white;
+  }
+  #comments{              
+    border: none;
+    min-width: 638px;
+    background:none;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    height: 100px;
+  }
+  #button{
+    border: none;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    width: 600px;
+    cursor: pointer;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: .4s ease all;
+    background: #FF4500;
+
+  }
+
 .footer {
     background-color:rgba(0, 0, 0, 0.1) ;
-    backdrop-filter: blur(10px); 
-    margin:0 10px;
+    backdrop-filter: blur(2px); 
 }
 
 .footer-content {
     display: flex;
    justify-content: space-between;
 }
-hr{
-    border-color: orangered;
-}
 
-.footer-nav ul {
-    list-style: none;
-    padding: 0;
-}
 
-.footer-nav li {
-    display: inline;
-    margin-right: 10px;
-}
-.footer h1{
-    color: black;
-}
 
-.footer-nav a {
-    color: black;
-    text-decoration: none;
-}
-
-.footer-content p {
-    margin: 5px 0;
-}
 
 
